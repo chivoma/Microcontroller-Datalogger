@@ -3450,6 +3450,94 @@
 		)
 		(uuid "fcafe642-a870-4764-9d61-07b80e69d85e")
 	)
+	(rectangle
+		(start 29.21 129.54)
+		(end 133.35 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6971b4c0-2c7e-4b94-87c9-31657cd84010)
+	)
+	(rectangle
+		(start 224.79 120.65)
+		(end 251.46 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6bd85eb7-9a30-477a-b092-0c6f19589dca)
+	)
+	(rectangle
+		(start 140.97 22.86)
+		(end 266.7 110.49)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e20e879-6b48-45f2-9b33-0eee31a084de)
+	)
+	(rectangle
+		(start 36.83 38.1)
+		(end 130.81 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b73c9875-d8ed-43c6-8bcb-e5a0f0be4593)
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 232.41 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fe977c9-59c5-4fe2-aaa8-62e0a8fa3d08")
+	)
+	(text "EEPROM"
+		(exclude_from_sim no)
+		(at 33.02 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee60c302-47fd-4b7a-92df-0ef7475ebbae")
+	)
+	(text "ATMEGA MCU"
+		(exclude_from_sim no)
+		(at 147.32 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb5b75ff-4b35-47aa-a015-41e54d338fa7")
+	)
+	(text "Real Time Clock"
+		(exclude_from_sim no)
+		(at 44.45 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb8f9817-e68c-4e14-8583-f7c0715b251b")
+	)
 	(label "Vcc"
 		(at 175.26 82.55 180)
 		(fields_autoplaced yes)
