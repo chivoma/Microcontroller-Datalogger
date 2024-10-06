@@ -2842,6 +2842,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "1bde4a0a-a49f-4cb5-a76a-aedb1a19a1f8")
 		)
+		(model "${KICAD8_3RD_PARTY}/symbols/ATMEGA328P_AU/ATMEGA328P-AU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -4131,6 +4142,17 @@
 			(uuid "20ca4414-7bb6-4928-bca5-5b18439d9d25")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5900,6 +5922,17 @@
 			(uuid "96cd2771-d29c-4e1f-9f39-feae5f933dcf")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIJ-8_5.3x5.3mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7681,6 +7714,17 @@
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "48913279-1cef-4f4a-b721-ad456deffffa")
+		)
+		(model "${KICAD8_3RD_PARTY}/symbols/DS1337S_/DS1337S.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(gr_rect
