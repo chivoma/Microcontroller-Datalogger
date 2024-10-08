@@ -2543,6 +2543,12 @@
 		(uuid "a594af76-9af3-4d71-afa4-779ce7219d9e")
 	)
 	(junction
+		(at 101.6 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0527eb9-aa88-4681-a07f-a240c4b68ea9")
+	)
+	(junction
 		(at 229.87 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2892,16 +2898,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 33.02) (xy 241.3 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658b3428-6c8c-485e-9023-62a945692968")
-	)
-	(wire
-		(pts
 			(xy 62.23 154.94) (xy 52.07 154.94)
 		)
 		(stroke
@@ -3072,6 +3068,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 53.34) (xy 105.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9605d68a-a90d-4a50-a590-6cbb12c89c43")
+	)
+	(wire
+		(pts
 			(xy 77.47 147.32) (xy 73.66 147.32)
 		)
 		(stroke
@@ -3129,6 +3135,16 @@
 			(type default)
 		)
 		(uuid "a2b2d536-a3bd-4367-86de-5c1a8034be44")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 120.65 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8ec90a9-643b-42bb-bec8-48f6cf63ecc2")
 	)
 	(wire
 		(pts
@@ -3282,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 105.41 53.34)
+			(xy 96.52 53.34) (xy 101.6 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3339,16 +3355,6 @@
 			(type default)
 		)
 		(uuid "e284e5c6-1dd1-4151-a7ab-19a97b0139f8")
-	)
-	(wire
-		(pts
-			(xy 105.41 53.34) (xy 120.65 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30cfec3-2a34-46d9-8bc1-0523f41f765e")
 	)
 	(wire
 		(pts
@@ -3692,7 +3698,7 @@
 		)
 		(uuid "394695b1-fd2b-4be9-9db5-26ac3da3f76f")
 	)
-	(label "SCL"
+	(label "SCK"
 		(at 189.23 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3724,6 +3730,17 @@
 			(justify right bottom)
 		)
 		(uuid "3fd6b621-76b3-4646-95d4-8d0c9848340f")
+	)
+	(label "SCK"
+		(at 184.15 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41e6c42a-5bb9-4d57-ab27-de5b0f57f685")
 	)
 	(label "TX"
 		(at 219.71 49.53 0)
@@ -4045,7 +4062,7 @@
 		(uuid "dfd43d15-b1f6-4828-9b53-42dc574b1a5f")
 	)
 	(label "RX"
-		(at 184.15 130.81 180)
+		(at 184.15 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4056,7 +4073,7 @@
 		(uuid "e3a767c3-6f2f-44e7-b3ea-62c53b9b0b66")
 	)
 	(label "TX"
-		(at 184.15 128.27 180)
+		(at 184.15 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5482,73 +5499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 52.07 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bdf3514-6404-4fe0-9d75-25fa59bfebe2")
-		(property "Reference" "#FLG03"
-			(at 50.165 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 48.26 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a22c07b-df03-448f-8dd9-d872055edce6")
-		)
-		(instances
-			(project "MCU Datalogger"
-				(path "/f5eacbf3-5133-41a8-b529-b36a541e7d42"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 232.41 151.13 0)
 		(unit 1)
@@ -5607,72 +5557,6 @@
 			(project "MCU Datalogger"
 				(path "/f5eacbf3-5133-41a8-b529-b36a541e7d42"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 241.3 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "909446c7-550e-4eea-aed0-acb0953aa60d")
-		(property "Reference" "#FLG01"
-			(at 241.3 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 241.3 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 241.3 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c9833cb-9d98-495f-9339-12b3d903c846")
-		)
-		(instances
-			(project "MCU Datalogger"
-				(path "/f5eacbf3-5133-41a8-b529-b36a541e7d42"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7032,6 +6916,72 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe759c38-1104-4c7d-978c-cb88b363ffa8")
+		(property "Reference" "#FLG04"
+			(at 101.6 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a586bdcc-264a-42d7-9640-09c70199d79e")
+		)
+		(instances
+			(project "MCU Datalogger"
+				(path "/f5eacbf3-5133-41a8-b529-b36a541e7d42"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
 		(at 184.15 114.3)
 		(size 27.94 41.91)
@@ -7122,7 +7072,7 @@
 			(uuid "1a6920a1-c02e-45c3-9b3a-56794dae34c5")
 		)
 		(pin "RX" input
-			(at 184.15 130.81 180)
+			(at 184.15 128.27 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7082,7 @@
 			(uuid "b43e3872-f01d-47ce-9656-e1fa760a6e79")
 		)
 		(pin "TX" output
-			(at 184.15 128.27 180)
+			(at 184.15 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,6 +7170,16 @@
 				(justify left)
 			)
 			(uuid "6ddc1a2b-9d71-4f9c-87cb-25a46a5acda2")
+		)
+		(pin "SCK" passive
+			(at 184.15 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e89ebc2e-f71f-49f3-affb-1e36436a9cbe")
 		)
 		(instances
 			(project "MCU Datalogger"
