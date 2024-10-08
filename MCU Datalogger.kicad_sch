@@ -4277,7 +4277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 			(at 260.35 41.656 90)
 			(effects
 				(font
@@ -4296,6 +4296,15 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
+			(at 260.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purpose" ""
 			(at 260.35 43.18 0)
 			(effects
 				(font
